@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(241, 239, 239);
+}
+
+table {
+    width: 100%;
+    border: 2px solid rgb(241, 239, 239);
+    background-color: white;
+    border-collapse: collapse;
+}
+th {
+    padding: 30px;
+    background-color: rgb(126, 153, 126);
+    color: white;
+}
+
+td {
+    border-bottom: 1px solid rgb(241, 239, 239);
+    padding: 30px;
+    height: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+.product {
+    width: 600px;
+    text-align: left;
+}
+.picture {
+    width: 300px;
+}
+img {
+    height:120px;
+    border: 1px solid green;
+    display: inline;
+}
+
+.p2 {
+    color: rgb(156, 151, 151);
+}
+
+tr:hover {
+    border-left: 5px solid red;
+}
